@@ -1,3 +1,7 @@
 # Gestion De Proyectos II
 
-Prueba de que funciona el commit
+Branch Master: todos los entregables funcionando correctamente
+
+Branch Develop: branch para ir realizando las nuevas mejoras
+
+Branch main: la branch principal

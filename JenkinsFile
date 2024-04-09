@@ -1,0 +1,23 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Compilación+Empaquetado+Análisis') {
+            steps {
+                script {
+                    // Ejecutar el script de compilación y empaquetado
+                    sh './scriptsakai.sh'
+                }
+            }
+        }
+
+        stage('Pruebas') {
+            steps {
+                script {
+                    // Ejecutar el script de pruebas
+                    sh './scriptsakaitest.sh'
+                }
+            }
+        }
+    }
+}

@@ -1,12 +1,16 @@
 pipeline {
     agent any
+    
+    tools {
+		maven "Maven"
+	}
 
     stages {
         stage('Compilación+Empaquetado+Análisis') {
             steps {
                 script {
                     // Ejecutar el script de compilación y empaquetado
-                    sh './scriptsakai.sh'
+                    sh "sudo mvn install"
                 }
             }
         }
@@ -15,7 +19,7 @@ pipeline {
             steps {
                 script {
                     // Ejecutar el script de pruebas
-                    sh './scriptsakaitest.sh'
+                    sh "sudo mvn test"
                 }
             }
         }

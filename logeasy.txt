@@ -1,0 +1,55 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36morg.t246osslab.easybuggy:easybuggy[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding easybuggy 1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36measybuggy[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/alumno/Escritorio/easybuggy/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.1.1:enforce[m [1m(enforce-java)[m @ [36measybuggy[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36measybuggy[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 7 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.3.2:compile[m [1m(default-compile)[m @ [36measybuggy[0;1m ---[m
+[[1;34mINFO[m] Compiling 97 source files to /home/alumno/Escritorio/easybuggy/target/classes
+[[1;33mWARNING[m] /home/alumno/Escritorio/easybuggy/src/main/java/org/t246osslab/easybuggy/exceptions/MalformedParameterizedTypeExceptionServlet.java:[14,45] ParameterizedTypeImpl is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/alumno/Escritorio/easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/JVMCrashByEAVServlet.java:[13,15] Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/alumno/Escritorio/easybuggy/src/main/java/org/t246osslab/easybuggy/exceptions/MalformedParameterizedTypeExceptionServlet.java:[22,8] ParameterizedTypeImpl is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/alumno/Escritorio/easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/JVMCrashByEAVServlet.java:[29,19] Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/alumno/Escritorio/easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/JVMCrashByEAVServlet.java:[30,39] Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/alumno/Escritorio/easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/JVMCrashByEAVServlet.java:[32,16] Unsafe is internal proprietary API and may be removed in a future release
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.3:run[m [1m(create-empty-directory-and-english-properties)[m @ [36measybuggy[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36measybuggy[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/easybuggy/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.3.2:testCompile[m [1m(default-testCompile)[m @ [36measybuggy[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36measybuggy[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-war-plugin:2.6:war[m [1m(default-war)[m @ [36measybuggy[0;1m ---[m
+[[1;34mINFO[m] Packaging webapp
+[[1;34mINFO[m] Assembling webapp [easybuggy] in [/home/alumno/Escritorio/easybuggy/target/easybuggy-1-SNAPSHOT]
+[[1;34mINFO[m] Processing war project
+[[1;34mINFO[m] Copying webapp resources [/home/alumno/Escritorio/easybuggy/src/main/webapp]
+[[1;34mINFO[m] Webapp assembled in [127 msecs]
+[[1;34mINFO[m] Building war: /home/alumno/Escritorio/easybuggy/target/ROOT.war
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mtomcat7-maven-plugin:2.1:exec-war-only[m [1m(tomcat-run)[m @ [36measybuggy[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36measybuggy[0;1m ---[m
+[[1;34mINFO[m] Installing /home/alumno/Escritorio/easybuggy/target/ROOT.war to /root/.m2/repository/org/t246osslab/easybuggy/easybuggy/1-SNAPSHOT/easybuggy-1-SNAPSHOT.war
+[[1;34mINFO[m] Installing /home/alumno/Escritorio/easybuggy/pom.xml to /root/.m2/repository/org/t246osslab/easybuggy/easybuggy/1-SNAPSHOT/easybuggy-1-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/alumno/Escritorio/easybuggy/target/easybuggy.jar to /root/.m2/repository/org/t246osslab/easybuggy/easybuggy/1-SNAPSHOT/easybuggy-1-SNAPSHOT-exec-war.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:1.2:exec[m [1m(startup-uber-start)[m @ [36measybuggy[0;1m ---[m
+Listening for transport dt_socket at address: 9009

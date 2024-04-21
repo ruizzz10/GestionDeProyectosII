@@ -1,0 +1,27 @@
+pipeline {
+    agent any
+    
+    tools {
+		maven "Maven"
+	}
+
+    stages {
+        stage('Compilación+Empaquetado+Análisis') {
+            steps {
+                script {
+                    // Ejecutar el script de compilación y empaquetado
+                    sh "sudo mvn install"
+                }
+            }
+        }
+
+        stage('Pruebas') {
+            steps {
+                script {
+                    // Ejecutar el script de pruebas
+                    sh "sudo mvn test"
+                }
+            }
+        }
+    }
+}
